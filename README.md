@@ -24,9 +24,9 @@ The expected accuracy of the 3 priors is estimated by 5-fold cross validation. C
 
 ## Usage
 
-- Files start with 'snb': Naive Bayes classifier with Laplace's estimate and selective naive Bayes to rank the atrributes. The ranking will be stored as txt file in the ranked_attr directory.
-- Files start with 'dirichlet': Naive Bayes classifier with Dirichlet priors. Parameters tested from 1 to 50 and the testing sequence of attibutes is order by the snb result.
-- Files start with 'gdirichlet': Naive Bayes classifier with generalDirichlet priors. Parameters tested from 1 to 50 and the testing sequence of attibutes is order by the snb result.
+- Files begin with 'snb': Naive Bayes classifier with Laplace's estimate and selective naive Bayes to rank the atrributes. The ranking will be stored as txt file in the ranked_attr directory.
+- Files begin with 'dirichlet': Naive Bayes classifier with Dirichlet priors. Parameters tested from 1 to 50 and the testing sequence of attibutes is order by the snb result.
+- Files begin with 'gdirichlet': Naive Bayes classifier with generalDirichlet priors. Parameters tested from 1 to 50 and the testing sequence of attibutes is order by the snb result.
 - algorithms_evaluation: Test if the performance results with different algorithms are statistically significant. Use the matched sample method from Wong, T. T., 2015 (Performance evaluation of classification algorithms by k-fold and leave-one-out cross validation). Generally speaking, with a confidence interval of 95%, the performances are significantly defferent only if the t-value is greater 2.776.
 
 ## License
